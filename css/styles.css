@@ -1,0 +1,9 @@
+.header-sec {
+  text-align: center;
+  position: relative;
+  z-index: 1000;
+}
+.main-image {
+  width: 100%;
+  height: 500px;
+}
