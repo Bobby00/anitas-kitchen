@@ -31,3 +31,28 @@
 .imgpos {
   padding-left: 290px;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 40.5px 100px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color:#F15A29 ;
+    color: white;
+    text-decoration: none;
+}
+li {
+  font-weight: 700;
+  font-size: 16.5px;
+}
