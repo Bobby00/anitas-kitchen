@@ -52,6 +52,30 @@ li a:hover {
     text-decoration: none;
 }
 li {
-  font-weight: 600;
+  font-weight: 550;
   font-size: 16.5px;
+}
+.button1 {
+  border: 1px solid #F15A29;
+  background: white;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #F15A29;
+  padding: 8px 30px;
+}
+.button1:hover {
+  border:  1px solid #F15A29;
+  background: white;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #F15A29;
+  padding: 8px 30px;
+  cursor: pointer;
+  box-shadow: 2px 2px;
+}
+.center {
+  padding-left: 600px;
+}
+body {
+  font-family:  sans-serif;
 }
