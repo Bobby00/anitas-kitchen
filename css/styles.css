@@ -79,3 +79,18 @@ li {
 body {
   font-family:  sans-serif;
 }
+
+.img-box {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+.postioning {
+  padding-right: 49.8px;
+}
+.img-shadow {
+  border: 1px solid #9f9fa0;
+  border-width: 1px;
+  padding: 2px;
+
+}
