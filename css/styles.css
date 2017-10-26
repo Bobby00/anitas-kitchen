@@ -117,7 +117,7 @@ body {
 }
 .position23 {
   position: absolute;
-  top: 378%;
+  top: 430%;
   left: 50%;
   transform: translate(-50%, 70%);
   color: white;
@@ -134,4 +134,25 @@ body {
 .subscribe-text {
   font-size: 28px;
   font-family: cursive;
+}
+.iconPadding {
+ padding: 8px;
+ padding-bottom: 20px;
+}
+.customersHeading {
+  color: #F15A29;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: cursive;
+  padding-top: 20px;
+}
+.customersText {
+  font-family: cursive;
+}
+.customersBorder {
+    border: 3px solid gray;
+    box-shadow: 30px;
+    margin-right: 9%;
+    margin-left: 9%;
+    border-radius: 4px;
 }
