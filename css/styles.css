@@ -130,7 +130,15 @@ body {
   font-size: 16px;
   color: white;
   padding: 8px 75px 8px 75px;
-;
+}
+.button2:hover {
+  border: 3px solid #F15A29;
+  background: #F15A29;
+  border-radius: 3px;
+  font-size: 16px;
+  color: black;
+  padding: 8px 75px 8px 75px;
+  cursor: pointer;
 }
 .subscribe-text {
   font-size: 28px;
