@@ -89,9 +89,10 @@ body {
   padding-right: 49.8px;
 }
 .img-shadow {
-  border: 1px solid #9f9fa0;
-  border-width: 1px;
-  padding: 2px;
+  border: 2px solid #cccccc;
+  border-width: 2px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 .iconPadding {
   padding: 8px;
@@ -117,7 +118,7 @@ body {
 }
 .position23 {
   position: absolute;
-  top: 430%;
+  top: 439%;
   left: 50%;
   transform: translate(-50%, 70%);
   color: white;
@@ -150,18 +151,29 @@ body {
   font-family: cursive;
 }
 .customersBorder {
-    border: 3px solid gray;
+    border: 3px solid #cccccc;
     box-shadow: 30px;
     margin-right: 9%;
     margin-left: 9%;
     border-radius: 4px;
 }
+
 .foodCarousel {
   position: absolute;
 
 
 }
 .carousel-spacing {
-  padding: 20px;
-  transform: translate(60%, -140%);
+  padding: 30px 40px 40px 40px;
+  transform: translate(-0.01%, -140%);
+  border: 3px solid white;
+  background: white;
+
+}
+div.vertical-line{
+  width: 2px;
+  background-color: #cccccc;
+  height: 100px;
+  float: left;
+  margin-top: 15px;
 }
