@@ -50,6 +50,7 @@
     background-color:#F15A29 ;
     color: white;
     text-decoration: none;
+    font-weight: bolder;
 }
 .selectors {
   font-weight: 550;
@@ -112,13 +113,15 @@ body {
 .input-resize {
   height: 42px;
   padding-right: 160px;
-  text-align: -webkit-auto;
+  text-align: center;
   margin-right: 25px;
   border-radius: 3px;
+  opacity:0.6;
+  box-shadow: 0px 0px 2px black;
 }
 .position23 {
   position: absolute;
-  top: 439%;
+  top: 469%;
   left: 50%;
   transform: translate(-50%, 70%);
   color: white;
@@ -168,6 +171,8 @@ body {
 
 .foodCarousel {
   position: absolute;
+  top: 330%;
+  transform: translate(-3.6%, 0%);
 
 
 }
@@ -188,31 +193,36 @@ div.vertical-line{
 .brekoPos {
   position: absolute;
   top: 30%;
-  left: 53%;
+  left: 55%;
   transform: translate(-50%, 70%);
   color: white;
-  font-size: 20px;
+  font-size: 22px;
   font-family: cursive;
 }
-.breko, .brekoPos:hover {
+.breko, {
   color: black;
-  font-size: 20px;
+  font-size: 24px;
   font-family: cursive;
   cursor: pointer;
   background-color: white;
 }
+.breko:hover, .lunch:hover, .dinner:hover {
+  opacity: 0.4;
+  color: black;
+  cursor: pointer;
+}
 .lunchPos {
   position: absolute;
   top: 30%;
-  left: 53%;
+  left: 55%;
   transform: translate(-50%, 70%);
   color: white;
-  font-size: 20px;
+  font-size: 22px;
   font-family: cursive;
 }
 .lunch, .lunchPos:hover {
   color: black;
-  font-size: 20px;
+  font-size: 24px;
   font-family: cursive;
   cursor: pointer;
   background-color: white;
@@ -220,16 +230,111 @@ div.vertical-line{
 .dinnerPos {
   position: absolute;
   top: 30%;
-  left: 53%;
+  left: 55%;
   transform: translate(-50%, 70%);
   color: white;
-  font-size: 20px;
+  font-size: 22px;
   font-family: cursive;
 }
 .dinner, .dinnerPos:hover {
   color: black;
-  font-size: 20px;
+  font-size: 24px;
   font-family: cursive;
   cursor: pointer;
   background-color: white;
+}
+.icon {
+  font-size: 20px;
+  color: #f15a29;
+  font-weight: 700;
+  font-family: monospace;
+}
+ .list-item1, .list-item2, .list-item3, .list-item4 {
+  background-color: #d3d1d1;
+  display: inline-block;
+  padding: 20px 100px 20px 109.49px;
+  font-size: 22px;
+  font-family: cursive;
+}
+ .list-item1:hover, .list-item2:hover, .list-item3:hover, .list-item4:hover {
+  background-color: white;
+  font-size: 22px;
+  font-family: cursive;
+  color: #f15a29;
+  cursor: pointer;
+}
+.image-spacing {
+  padding: 50px 50px;
+  background-color: white;
+  }
+.carosel-pos {
+  top: 340%;
+  position: absolute;
+}
+.list-item1 {
+ background-color: white;
+ font-size: 22px;
+ font-family: cursive;
+ color: #f15a29;
+}
+
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+.navpos {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  z-index: 1;
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  font-family: raleway;
 }

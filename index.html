@@ -7,10 +7,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/elements.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body data-smooth-scroll-offset="77">
+
+    <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+<div class="navpos">
+  <div class="row">
+<span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+</div>
         <div class="equalize xs-equalize-auto equalize-display-inherit">
       <img class="img-box" src="img/landing.jpg">
       <div class="centered">
@@ -62,7 +79,7 @@
       <h3 class="text-left"><strong>Fast Food</h3>
       <h6 class="text-left">You'll Love our delicious fast food</strong></h6>
       <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        <br/><br/><br/><br><br>
+        <br/><br/><br/><br>
           <button type="button" class="button1">VIEW GALLERY  &rarr; </button>
       </p>
 
@@ -75,10 +92,9 @@
       <h3 class="text-right"><strong>Drinks</h3>
       <h6 class="text-right">We also produce delicious drinks</strong></h6>
       <p class="text-right">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        <br><br><br><br><br>
+        <br><br><br><br>
         <button type="button" class="button1">VIEW GALLERY   &rarr; </button>
       </p>
-
     </div>
     <div class="col-md-6 md-12 xs-12">
       <div class="img-shadow">
@@ -94,26 +110,26 @@
     <img class="img-box" src="img/foodsBg.jpg">
     <div class="container">
     <div class="foodCarousel">
+     <div class="caroselNames">
       <div class="row">
-        <div>
-        <img class="carousel-spacing" src="img/chickenBurger.jpg">
-      </div>
-      <div>
-        <img class="carousel-spacing" src="img/beefBurger.jpg">
-      </div>
-      <div>
-        <img class="carousel-spacing" src="img/chickenPizza.jpg">
-      </div>
+  <ul class="list">
+    <li class="list-item1">Fast Food</li>
+    <li class="list-item2">Drinks</li>
+    <li class="list-item3">Chicken</li>
+    <li class="list-item4">Rice</li>
+    </ul>
     </div>
-    <!--  <div class="caroselNames">
-      <div class="row">
-        <p>Chiken Burger</p>
-        <p>Beef Burger</p>
-        <p>Chiecken Pizza</p>
-    </div>
-  </div> -->
   </div>
+  </div>
+  <div class="carosel-pos">
+  <div class="row">
+  <img class="image-spacing" src="img/chickenBurger.jpg"/>
+  <img class="image-spacing" src="img/chickenPizza.jpg">
+  <img class="image-spacing" src="img/beefBurger.jpg">
+</div>
+</div>
 </section>
+
 <section>
   <br><br><br>
   <div class="customersBorder">
@@ -124,9 +140,11 @@
         <p class="customersText">George Richard<br>
           Great food! Menu is awesome, ther are not only great but<br>
           also in the right price. I'll highly recommend them :)</p>
+          <i class="icon"> < </i>
         <img class="iconPadding" src="img/p1.png">
         <img class="iconPadding" src="img/p2.png">
         <img class="iconPadding" src="img/p3.png">
+        <i class="icon"> > </i>
       </div>
       <div class="col-md-1">
       <div class="vertical-line" style="height:200px;" >
@@ -187,6 +205,15 @@
 </center>
 </footer>
   <!-- javascript libraries -->
+  <script>
+  function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+  }
+
+  function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+  }
+  </script>
 
   <script src="js/jquery-3.2.1.js"></script>
   <script src="js/scripts.js"></script>
