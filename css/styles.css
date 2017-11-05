@@ -121,7 +121,7 @@ body {
 }
 .position23 {
   position: absolute;
-  top: 469%;
+  top: 439%;
   left: 50%;
   transform: translate(-50%, 70%);
   color: white;
@@ -171,7 +171,7 @@ body {
 
 .foodCarousel {
   position: absolute;
-  top: 330%;
+  top: 310%;
   transform: translate(-3.6%, 0%);
 
 
@@ -249,6 +249,28 @@ div.vertical-line{
   font-weight: 700;
   font-family: monospace;
 }
+.icon2 {
+  font-size: 20px;
+  color: #f15a29;
+  font-weight: 700;
+  font-family: monospace;
+  position: absolute;
+  left: 1%;
+  top: 45%;
+  font-size: 25px;
+  font-weight: 700px;
+}
+.icon3 {
+  font-size: 20px;
+  color: #f15a29;
+  font-weight: 700;
+  font-family: monospace;
+  position: absolute;
+  right: 1%;
+  top: 45%;
+  font-size: 25px;
+  font-weight: 700px;
+}
  .list-item1, .list-item2, .list-item3, .list-item4 {
   background-color: #d3d1d1;
   display: inline-block;
@@ -267,9 +289,42 @@ div.vertical-line{
   padding: 50px 50px;
   background-color: white;
   }
+  .image-spacing:hover {
+    padding: 50px 50px;
+    background-color: white;
+    opacity: 0.8;
+    }
 .carosel-pos {
-  top: 340%;
+  top: 320%;
   position: absolute;
+}
+.carosel-names1 {
+  position: absolute;
+  top: 87%;
+  left: 10%;
+  color: #f15a29;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+.carosel-names2 {
+  position: absolute;
+  left: 46%;
+  top: 87%;
+  color: #f15a29;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+.carosel-names3 {
+  position: absolute;
+  left: 80%;
+  top: 87%;
+  color: #f15a29;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+.carosel-names1:hover, .carosel-names2:hover, .carosel-names3:hover {
+  color: black;
+  text-decoration: none;
 }
 .list-item1 {
  background-color: white;
@@ -286,8 +341,8 @@ div.vertical-line{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
+    background-color: #f15a29;opacity: 0.9;
+    background-color: #f15a29;opacity: 0.9;
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -304,13 +359,13 @@ div.vertical-line{
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: black;
     display: block;
     transition: 0.3s;
 }
 
 .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
+    color: #ffffff;
 }
 
 .overlay .closebtn {
