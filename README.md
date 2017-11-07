@@ -1,13 +1,14 @@
-##Anitas kitchen
+<h1>Anitas kitchen</h1>
 
-#Description
-A Restaurant Website that we had to recreate from an Image provided
+<h2>Description</h2>
+<p>A Restaurant Website that we had to recreate from an Image provided.</p>
 
-##Languages Used
-1.HTML
-2.CSS
-3.JavaScript
+<p>Languages Used</p>
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ul>
 
-
-#Known bugs
-The page is irresponsive on smaller screen sizes
+<h2>Known bugs</h2>
+<p>The page is irresponsive on smaller screen sizes</p>
